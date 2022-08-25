@@ -1,7 +1,7 @@
 @{
 import random
-friends = ['Albert', 'Betty', 'Charles', 'Donald']
-winner = random.choice(friends)
+from lottery_participants import attendees
+winner = random.choice(attendees)
 }@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -18,7 +18,7 @@ winner = random.choice(friends)
 
 <br/>
 
-Today's winner is... <b>@(winner)</b>!
+Today's winner is... <b>@(winner)</b>!!!
 
 <br/>
 <img src="images/genie.gif" /><img src="images/laptop-01.gif" /><img src="images/genie.gif" />
